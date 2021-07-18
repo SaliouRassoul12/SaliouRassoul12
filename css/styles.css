@@ -1,0 +1,1178 @@
+/*general*/
+
+@font-face {
+	font-family: Raleway;
+	src: url(../fonts/static/Raleway-Regular.ttf) format("truetype");
+}
+
+/* taille de la page web*/
+
+html,
+body {
+	font-family: Raleway, sans-serif;
+	text-decoration: none;
+}
+
+.logo {
+	margin-left: 17px;
+}
+
+
+a:link  {
+	padding-top: 20px;
+	text-decoration: none;
+}
+
+
+.haut1 {
+	width: auto;
+	width: auto;
+	background-color:;
+}
+header{
+    background-color:;
+	width: 100%;
+}
+
+
+.titereetparagraphe{
+    margin-left: 25px;
+	background-color:;
+	font-size: 12.1px;
+}
+
+.locationetBtn{
+    background-color:;
+    display:inline-flex;
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.icones{
+    background-color:yellow;
+	margin-left: 20px;
+}
+
+.filters{
+    background-color: green;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.iconeetparagraphe{
+    display:inline-block;
+    background-color: ;
+    margin-left: 25px;
+	margin-top:0px;
+}
+
+.plude500{
+    display:inline-flex;
+    margin-left:auto;
+}
+
+ul{
+	list-style: none;
+	display: inline-flex;
+	align-items: stretch;
+	justify-content: space-evenly;
+	margin: 12px;
+}
+
+
+.ReserviaHebergement{
+	display:flex;
+	flex-direction: row;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	justify-content: space-between;
+	padding-top: 8px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.Hebergement {
+	justify-content: space-evenly;
+	position: relative;
+	top: auto;
+	right: 12px;
+	border-top: 1px solid blue;
+    color:#0065fc;
+	padding: 20px;
+}
+
+
+.Activite{
+	justify-content: space-evenly;
+    border-top: 1px solid transparent;
+	justify-content: space-evenly;
+	top: auto;
+	right: 0px;
+	padding: 20px;
+}
+
+.Activite a:visited{
+	color:#F2F2F2;
+}
+
+.ReserviaHebergement a:hover{
+	border-top: 1px solid #0065fc;
+}
+
+.Activite :hover{
+	border-top: 1px solid #0065FC;
+}
+
+.inscription {
+	justify-content: space-evenly;
+	top: auto;
+	right: 0px;
+	padding: 20px;
+	border-top: 1 px solid transparent;
+	color:#0065fc;
+}
+
+.locationI {
+	display: flex;
+	width:35px;
+	height: 35px;
+	background-color: #F2F2F2;
+	color: black;
+	border-bottom-left-radius: 8px;
+	border-top-left-radius: 8px;
+	align-items: center;
+	justify-content: center;
+	margin-left: px;
+}
+
+.Btn {
+	width: 123px;
+	height: 35px;
+    color:white;
+    background-color: #0065FC;
+	border: 1px solid #0065fc;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+	padding-right: 5px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 0px;
+}
+
+.icones ul {
+	display: inline-block;
+
+	margin-right: 50px;
+    flex-direction: column,
+	 display:inline-flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.icones ul{
+    gap: 5px;
+
+}
+
+.icones ul li {
+	display:inline-block;
+	list-style: none;
+	justify-content: flex-start;
+}
+
+.icones{
+	display: inline-flex;
+    flex-direction: row;
+	list-style: none;
+	align-items: center;
+	border: 1px solid black;
+	width: 70%;
+	height: 30px;
+	margin-left: 50px;
+}
+
+
+
+.econome {
+	display: flex;
+	width: 30px;
+	height: 32px;
+	border: 1px solid #DEEBFF;
+	background-color: #DEEBFF;
+	color:#0065FC;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	box-shadow: 1px 1px 0.5px#F2F2F2;
+	list-style: None;
+	margin-left:0px;
+}
+
+.Eco {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 100px;
+	height: 5px;
+	border: 0.5px solid#F2F2F2;
+	background-color: white;
+	border-radius: 120px;
+	text-align: center;
+	align-items: center;
+	font-size: small;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding: 15px;
+	box-shadow: 1px 1px 0.5px#F2F2F2;
+	list-style-type: None;
+	margin-left: 50px;
+	color: black;
+}
+
+.child {
+	display: flex;
+	width: 30px;
+	height: 32px;
+	border: 1px solid #F2F2F2;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	box-shadow: 1px 1px 0.5px#F2F2F2;
+	margin-left: 110px;
+}
+
+.famille {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	width: 70px;
+	height: 5px;
+	border: 1px solid #F2F2F2;
+	border: 0.5px solid #F2F2F2;
+	background-color: rgb(255, 255, 255);
+	border-radius: 120px;
+	text-align: center;
+	align-items: center;
+	font-size: small;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding: 15px;
+	box-shadow: 1px 1px 0.5px#F2F2F2;
+	margin-left: 50px;
+	color:black;
+}
+
+.childs{
+	margin-left: 5px;
+
+
+}
+
+.coeur {
+	display: flex;
+	width: 30px;
+	height: 33px;
+	border: 1px solid #F2F2F2;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	list-style: None;
+	margin-left: 80px;
+}
+
+.amoureux {
+	display: flex;
+	justify-content: flex-end;
+	width: 100px;
+	height: 5px;
+    color: black;
+	border: 1px solid #F2F2F2;
+	background-color: white;
+	border-radius: 120px;
+	text-align: center;
+	align-items: center;
+	font-size: small;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding: 15px;
+	list-style: None;
+	margin-left: 50px;
+    font-weight: bold;
+}
+
+.chien {
+	display: flex;
+	width: 30px;
+	height: 33px;
+	border: 1px solid #F2F2F2;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	list-style:None;
+	margin-left:105px;
+}
+
+.Animaux {
+	display: flex;
+	justify-content: flex-end;
+	width: 130px;
+	height: 5px;
+    color:black;
+	border: 1px solid#F2F2F2;
+	background-color: white;
+	border-radius: 120px;
+	text-align: center;
+	align-items: center;
+	font-size: small;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding: 15px;
+	list-style: None;
+	margin-left: 50px;
+    font-weight: bold;
+}
+
+.HM{
+	position: relative;
+	top:52px;
+	left:66px;
+	font-size: medium;
+}
+
+.CarteAubergelaCannebiere a:hover{  
+	-webkit-transform: scale(1.1);
+}
+
+.CarteAubergelaCannebiere{
+ 
+   background-color:white;
+   border: 0.1px solid white;
+   padding: 1px;
+   padding-left: 0px;
+   font-size: 14px;
+   text-align:start;
+   margin: 0px;
+   width: 160px;
+   height:125px;
+   border-radius:10px;
+   font-size: 10px;
+   box-shadow: 2px 1px 0.3px whitesmoke;
+} 
+
+.carte6{
+   background-color:#ffff;
+   border: 1px solid transparent;
+   font-size: 10px;
+   text-align:start;
+   width: 155px;
+   height:70px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-left: 1px;
+}
+
+.titres1{
+	font-weight: bolder;
+	margin-left: 10px;
+	position: relative;
+	top:-12px;
+}
+
+.NI1{
+	margin-left: 10px;
+	position: relative;
+	top:-20px;
+}
+
+.Istars1{
+	background-color: #ffff;
+	color: #0065fc;
+	margin-left: 10px;
+	position: relative;
+	top:-23px;
+}
+
+.Cartehotelduport{
+   background-color:white;
+   border: 0.1px solid white;
+   padding: 1px;
+   padding-left: 0px;
+   font-size: 14px;
+   text-align:;
+   margin: 0px;
+   width: 160px;
+   height:125px;
+   border-radius:10px;
+   font-size: 10px;
+   box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.carte7{
+   background-color:#ffff;
+   border: 1px solid transparent;
+   font-size: 10px;
+   text-align:start;
+   width: 155px;
+   height:70px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-left: 1px;
+}
+
+.HP{
+	font-weight: bolder;
+	margin-left: 10px;
+	position: relative;
+	top:-12px;
+}
+
+.NI2{
+	display:block;
+	justify-content:;
+	margin-left: 10px;
+	position: relative;
+	top:-20px;
+	right:;
+}
+
+.Istars2{
+	background-color: #ffff;
+	color:#0065fc;
+	margin-left: 10px;
+	position: relative;
+	top:-23px;
+}
+
+.CartehotellesMouettes{
+   background-color:white;
+   border: 0.1px solid white;
+   padding: 1px;
+   padding-left: 0px;
+   font-size: 14px;
+   text-align:start;
+   margin: 0px;
+   width: 160px;
+   height:125px;
+   border-radius:10px;
+   font-size: 10px;
+   box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.carte08{
+   background-color:#ffff;
+   border: 1px solid transparent;
+   font-size: 10px;
+   width: 155px;
+   height:70px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-left: 1px;
+}
+
+.THM{
+	font-weight:bolder;
+	margin-left:10px ;
+	position: relative;
+	top:-12px;
+}
+
+.NI3{
+	margin-left: 10px;
+	position: relative;
+	top:-20px;
+}
+
+.Istars3{
+	background-color: #ffff;
+	color:#0065fc;
+	margin-left: 10px;
+	position: relative;
+	top:-23px;
+}
+
+.Cartehoteldelamer{
+   background-color:white;
+   border: 0.1px solid white;
+   padding: 1px;
+   padding-left: 0px;
+   font-size: 14px;
+   text-align:start;
+   margin: 0px;
+   width: 160px;
+   height:125px;
+   border-radius:10px;
+   font-size: 10px;
+   box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.carte09{
+   background-color:#ffff;
+   border: 1px solid transparent;
+   font-size: 10px;
+   text-align:start;
+   width: 155px;
+   height:70px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-left: 1px;
+}
+
+.titres4{
+	font-weight:bolder;
+	margin-left: 10px;
+	position: relative;
+	top:-12px;
+}
+
+.NI4{
+	margin-left: 10px;
+	position: relative;
+	top:-20px;
+}
+
+.Istars4{
+	background-color: #ffff;
+	color:#0065fc;
+	margin-left: 10px;
+	position: relative;
+	top:-23px;
+}
+
+.CarteAubergelePanier{
+   background-color:white;
+   border: 0.1px solid white;
+   padding: 1px;
+   padding-left: 0px;
+   font-size: 14px;
+   text-align:start;
+   margin: 0px;
+   width: 160px;
+   height:125px;
+   border-radius:10px;
+   font-size: 10px;
+   box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.carte10{
+   background-color:#ffff;
+   border: 1px solid transparent;
+   font-size: 10px;
+   text-align:start;
+   width: 155px;
+   height:70px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-left: 1px;
+}
+
+.titres5{
+	font-weight:bolder;
+	margin-left: 10px;
+	position: relative;
+	top:-12px;
+}
+
+.NI5{
+	margin-left: 10px;
+	position: relative;
+	top:-20px;
+}
+
+.Istars5{
+	background-color: #ffff;
+	color:#0065fc;
+	margin-left: 10px;
+	position: relative;
+	top:-23px;
+}
+
+.CarteHotelchezAmania{
+   background-color:white;
+   border: 0.1px solid white;
+   padding: 1px;
+   padding-left: 0px;
+   font-size: 14px;
+   text-align:start;
+   margin: 0px;
+   width: 160px;
+   height:125px;
+   border-radius:10px;
+   font-size: 10px;
+   box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.carte11{
+   background-color:#ffff;
+   border: 1px solid transparent;
+   font-size: 10px;
+   text-align:start;
+   width: 155px;
+   height:70px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-left: 1px;
+}
+
+.HA{
+	font-weight: bolder;
+	margin-left: 10px;
+	position: relative;
+	top:-12px;
+}
+
+.NI6{
+	margin-left: 10px;
+	position: relative;
+	top:-20px;
+}
+
+.Istars6{
+	background-color: #ffff;
+	color: #0065fc;
+	margin-left: 10px;
+	position: relative;
+	top:-23px;
+}
+
+
+
+/*.hebergementaMarseille{
+	display:inline-block;	
+   background-color: #F2F2F2;
+   width:60%;
+    padding: 50px;
+   font-size: 10px;
+   text-align: center; 
+}
+*/
+
+/* aside{
+  display: grid;
+  gap:30px;
+  grid-template-rows: 155px;
+  padding: 10px;
+  position:absolute;
+  top:346px;
+  right:25px;
+} */
+
+.hebergementaMarseille{ 
+	display:inline-block; 
+    background-color:#F2F2F2;
+	border: 1px solid #F2F2F2;
+	width:60%;
+    height:298px;
+	padding-top: 20px;
+	margin-left: 25px;
+	border-radius: 10px;
+}
+
+
+.hebergementaMarseille{
+	display:flex;
+	justify-content: space-evenly;
+    
+}
+
+.hebergementaMarseille{
+	display:flex;
+	flex-wrap:wrap;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	justify-content: space-evenly;
+}
+
+.AP{
+	font-weight:bolder;
+	font-size:small;
+	position:relative;
+	top:-45px;
+	left:63px;
+
+   }
+
+.linetradegraph{
+	font-size: medium;
+	color: #000000;
+	position: relative;
+	top:-12px;
+	right:-231px;
+
+ }
+
+.lespluspopulaires{
+    display:block; 
+    background-color:#F2F2F2; 
+    width:32%; 	
+    height: 380px;
+	position:absolute;
+	top: 320px;
+	right:25px;
+	font-size: 10px;
+	gap:;
+	align-items: right;
+	border-radius: 10px;
+	padding-bottom:0px;
+	margin-right: 12px;
+	
+}
+
+.titres{
+	margin-left:20px;
+	margin-bottom:-8px;
+	font-size: medium;
+}
+
+/*.lespluspopulaires {
+	display:inline-block;
+	background-color: red;
+	width:25%;
+	height:300px;
+}
+*/
+
+.Cartehotellesoleildumatin{  
+	
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px solid white;
+	background-color:#ffff;
+	height: 80px;
+	width: 220px;
+	border-radius: 10px;
+	text-align:justify;
+    align-items: flex-start;
+	font-size: 10px;
+	box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.Cartehotellesoleildumatin{
+	display:flex;
+	margin-bottom: 20px;
+    padding: 3px;
+	align-items:center;
+}
+
+.HSM{
+	display:block;
+	align-items:center;
+	justify-content:center;
+	margin:center;
+	text-align: justify;
+	position: relative;
+	top:-9px;
+	right:-10px;;
+}
+
+.NI7{
+	display:block;
+	align-items:flex-start;
+	justify-content:flex-start;
+	margin:2px;
+	position: relative;
+	top:-6px;
+	right:
+}
+
+.Istars7{
+	display:block;
+	color: #0065fc;
+	justify-content:flex-start;
+    position: relative;
+	top:12px;
+	right:
+}
+
+.carte12{
+	background-color: #ffff;
+	border-bottom-left-radius:10px;
+	border-top-left-radius: 10px ;
+}
+
+
+.CarteAucouereauchambreHotes{
+    
+	margin-top:;
+	margin-left:20px;
+	margin-right:20px;
+	border: 1px solid white;
+	background-color:#ffff;
+	height: 80px;
+	width:220px;
+	border-radius: 10px;
+	font-size: 10px;
+	box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.CarteAucouereauchambreHotes{
+    display:flex;
+	margin-top:20px ;
+	padding: 3px;
+	align-items:flex-start;
+	
+}
+
+.ACDCH{
+	display:block;
+	align-items:center;
+	justify-content:center;
+	margin:center;
+	text-align: justify;
+	position: relative;
+	top:-10px;
+	right:-10px;
+}
+
+.Istars8{
+    display:flex;
+	background-color: #ffff;
+	color:#0065fc;
+	position: relative;
+	top:3px;
+	right:;
+}
+
+.NI8{
+	display:block;
+	background-color: #ffff;
+	align-content: center;
+	position: relative;
+	top:-4px;
+	right:;
+}                  
+
+.carte13{
+	background-color: #ffff;
+	border-bottom-left-radius:10px;
+	border-top-left-radius: 10px ;
+}
+
+.CarteHotelToutbleuetBlanc{
+	
+	margin-top:;
+	margin-left: 20px;
+	margin-right:20px;
+	border: 1px solid white;
+	background-color:#Ffff;
+	height: 80px;
+	width:220px;	
+	border-radius: 10px;
+    box-shadow: 2px 1px 0.3px whitesmoke;
+	padding-bottom: 0px;
+	font-size: 10px;
+}
+
+.CarteHotelToutbleuetBlanc{
+	display:flex;
+	margin-top:20px ;
+	padding: 3px;
+	align-items:;
+	
+}
+
+.titres9{
+	display:block;
+	align-items:center;
+	justify-content:center;
+	margin:center;
+	text-align: justify;
+	 position: relative;
+	top:-4px;
+	right:-10px;
+}	
+
+.NI9{
+	display:block;
+    position: relative;
+	top:-4px;
+	right:;
+}
+
+.Istars9{
+	display:flex;
+	background-color: #ffff;
+	color:#0065fc;
+	margin: auto;
+	padding-bottom:2px;
+	justify-content: ;
+	position: relative;
+	top:px;
+	right:;
+}
+
+.carte14{
+	background-color: #ffff;
+	border-bottom-left-radius:10px;
+	border-top-left-radius: 10px;
+}
+
+aside{   
+    display:flex;
+}
+
+.Marseille{
+	margin-left:25px;
+	height:
+	
+	
+
+}
+
+.lescartesbas{
+	display:grid;
+	gap: 40px;
+    grid-template-columns: 205px 203px 205px 203px ;
+	border: 1px solid transparent;
+	width: 65%;
+	height: vh;
+	margin-left: -15px;
+	margin-right:20px;
+	font-size: 9px;
+	margin-top: 10px;
+}
+
+.lescartesbas{
+	
+
+}
+	
+ .vieuxport{
+	display:block;
+	height: 363px;
+	width: 205px;
+	font-size: 10px;
+	border-radius: 10px;
+	background-color: #ffff;
+	border:1px solid transparent;
+	text-align:;
+	box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.Viewport{
+	padding-left: 12px;
+	padding-top: 12px;
+	font-weight:bold;
+}
+.carte15{
+	display: block;
+	height:325px;
+	width: 205px;
+	background:cover;
+	border:1px solid transparent;
+	text-align: center;
+    border-bottom-color:whitesmoke;
+	padding-bottom:;
+	border-top-left-radius: 10px;
+	border-top-right-radius:10px ;
+	margin-left: 0px;
+	box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.fortdepomegue{
+	height:170px;
+	width:203px;
+	background-color:#ffff;
+	border:0.1px solid transparent;
+	text-align:justify;
+	padding:;
+	border-radius: 10px;
+	box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.FortdePomegues{
+	padding-left: 12px;
+	padding-top: 12px;
+	font-weight: bold;
+}
+
+.carte16{
+	height: 136px;
+	width: 203px;
+	background-color: #ffff;
+    border-bottom: #ffff;
+	text-align:;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 10px;
+}
+
+.ilesdufrioul{
+    height: 120px;
+	width: 203px;
+	background-color: #ffff;
+	border:1px solid transparent;
+	text-align:;
+	border-radius: 10px;
+	vertical-align:middle;
+	font-size: 10px;
+	padding-bottom: 5px;
+	box-shadow: 2px 1px 0.3px whitesmoke;
+	padding-top: 58px;
+}
+
+.frioul{
+	padding-left: 12px;
+	padding-top: 12px;
+	font-weight: bold;
+}
+
+.carte17{
+	height: 88px;
+	width: 203px;
+    border:1px solid #ffff;
+	text-align:justify;
+    border-bottom: #ffff;
+	padding-bottom: px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    align-items:center;
+	margin-left: 0px;
+}
+
+.parcnationaldescalenques{
+	height: 363px;
+	width: 205px;
+	background-color: #Ffff;
+	border:1px solid transparent;
+	text-align:justify;
+	border-radius: 10px;
+	padding-bottom:;
+	font-size: 10px;
+	box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.Calenques{
+	padding-left: 12px;
+	padding-top: 12px;
+	font-weight: bold;
+}
+
+.carte18{
+	display: flex;
+	height:323px;
+	width: 205px;
+	border:1px solid #ffff;
+	text-align:justify;
+    border-bottom: #ffff;
+	padding-bottom:;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    align-items:initial;
+	margin-left: 0px;	
+}
+
+.notredamedelagarde{
+	height: 120px;
+	width: 203px;
+	background-color:#ffff;
+	border:1px solid transparent;
+	text-align:;
+	padding:;
+	font-size:10px;
+	border-radius:10px;
+	box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.Dame{
+	padding-left: 12px;
+	padding-top: 12px;
+	font-weight: bold;
+}
+
+.carte19{
+	display: flex;
+	height: 88px;
+	width: 203px;
+    border:1px solid #ffff;
+	text-align:justify;
+    border-bottom: #ffff;
+	padding-bottom: px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-left: 0px;
+}
+
+.longchamp{
+	height: 170px;
+	width: 203px;
+	background-color: #ffff;
+	border:0.1px solid transparent;
+	text-align:justify;
+	border-radius: 10px;
+	font-size: 10px;
+	box-shadow: 2px 1px 0.3px whitesmoke;
+	padding-top: 60px;
+}
+
+.long{
+	padding-left: 12px;
+	padding-top: 12px;
+	font-weight: bold;
+}
+
+.carte20{
+	height: 136px;
+	width: 203px;
+    border-bottom: #ffff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: small;
+	box-shadow: 2px 1px 0.3px whitesmoke;
+} 
+
+.footer{  
+    display: grid;
+	grid-template-columns: auto auto auto;
+    border: 1px solid #F2F2F2;
+    background-color:#F2F2F2;
+    width: 100%;
+    height:140px;
+    padding-bottom:30px ;
+	gap:30px;
+	
+ }
+footer a{
+	color:black;
+}
+.foot1{
+    display:block;
+    flex-direction: column;
+    align-content:flex-end;
+    align-items:stretch;
+    justify-content:center;
+    padding-left: 20px;
+	padding-top:;
+	flex-shrink: ;
+}
+
+.footer2{
+    display: block;
+    flex-direction: column; 
+    align-content:flex-end;
+    align-items:stretch;
+    justify-content:center;
+}
+
+.footer3{
+    display:block;
+    flex-direction: column;  
+    align-content:flex-end;
+    align-items:stretch;
+    justify-content:center;
+    padding-right: 20%;
+}
